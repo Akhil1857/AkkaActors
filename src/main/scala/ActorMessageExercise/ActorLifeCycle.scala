@@ -6,7 +6,6 @@ import akka.actor._
 import scala.language.postfixOps
 
 object ActorLifeCycle extends App {
-  // Messages
   object MyActor {
     case object Increment
 
